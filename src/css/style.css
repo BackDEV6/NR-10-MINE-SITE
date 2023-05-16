@@ -1,89 +1,83 @@
-body{
-    background-color: #90909090;
-    color: #ffffff;
-    font-family: 'Poppins';
+body {
+  background-color: #90909090;
+  color: #ffffff;
+  font-family: "Poppins";
 }
-.cabecalho{
-    padding: 10px 60px;
-    justify-content: space-between;
-    display: flex;
-    background-color: #000000;
+.cabecalho {
+  padding: 10px 60px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #000000;
 }
-.cabecalho .logo-NR-10{
-    width: 60px;
-    transition: 0.2s ease-in-out;
+.cabecalho .logo-NR-10 {
+  width: 60px;
+  transition: 0.2s ease-in-out;
 }
-.cabecalho .logo-NR-10:hover{
-    transform: scale(1.2);
-    
+.cabecalho .logo-NR-10:hover {
+  transform: scale(1.2);
 }
-.cabecalho .menu{
-    align-items: center;
-    display: flex;
+.cabecalho .menu {
+  align-items: center;
+  display: flex;
 }
-.cabecalho .menu ul{
-    display: flex;
+.cabecalho .menu ul {
+  display: flex;
+  gap: 20px;
 }
-.cabecalho .menu ul li{
-    background-color: #FF8C00;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0 20px;
-    transition: 0.2s ease-in-out;
+.cabecalho .menu ul li {
+  background-color: #ff8c00;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
 }
-.cabecalho .menu ul a li:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #000000;
+.cabecalho .menu ul a li:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
 }
-.conteudo{
-    margin: 0 auto;
-    margin-top: 50px;
-    max-width: 1280px;
-    
+.conteudo {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1280px;
 }
-.conteudo .titulo-conteudo{
-    margin: 0 auto;
-    margin-bottom: 20px;
-    background-color: #FF8C00;
+.conteudo .titulo-conteudo {
+  background-color: #ff8c00;
+  text-align: center;
+  color: #000000;
 }
-.conteudo .titulo-conteudo .titulo{
-    color: #000000;
-    text-align: center;
+.conteudo .listagem-nr {
+  margin: 45px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
 }
-.conteudo .listagem-nr{
-    margin: 100px 0;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
-    gap: 40px;
+.conteudo .cartao-nr {
+  border-radius: 25px;
+  background-color: #a4a4a4;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  transition: 0.2s ease-in-out;
 }
-.conteudo .cartao-nr{
-    border-radius: 25px;
-    background-color: #a4a4a4;
-    width: 300px;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    transition: 0.2s ease-in-out;
+.conteudo .cartao-nr:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.75);
 }
-.conteudo .cartao-nr:hover{
-    transform: scale(1.02);
-    box-shadow: 0px 0px 7px 7px rgba(0,0,0,0.75);
+.conteudo .cartao-nr .informacao {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
 }
-.conteudo .cartao-nr .informacao{
-    text-align: center;
-    font-weight: bold;
-    color: #000000;
+.conteudo .cartao-nr .Danger-Logo {
+  border-radius: 25px;
 }
-.conteudo .cartao-nr .Danger-Logo{
-    border-radius: 25px;
-}
-.conteudo .cartao-nr .descricao{
-    margin: 20px;
-    color: #000000;
-    font-size: 20px;
-    overflow-y: scroll;
-    max-height: 200px;
+.conteudo .cartao-nr .descricao {
+  margin: 20px;
+  color: #000000;
+  font-size: 20px;
+  overflow-y: scroll;
+  max-height: 200px;
 }
